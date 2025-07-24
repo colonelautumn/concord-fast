@@ -67,18 +67,18 @@
 
 ## Installation 📦
 
-1. Download the `concord.lua` file
+1. Download the `concord-fast.lua` file
 2. Place it in your Garry's Mod addon's `lua` folder
 3. Include it in your script:
 
 ```lua
-local concord = include("concord.lua")
+local concord = include("concord-fast.lua")
 ```
 
 ## Quick Start 🚀
 
 ```lua
-local concord = require("concord")
+local concord = require("concord-fast")
 
 -- Vector math example
 local v1 = concord.vector.new(1, 2, 3)
